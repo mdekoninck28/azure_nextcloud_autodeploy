@@ -1,0 +1,43 @@
+---
+
+#Configuration de MySQL
+
+- name: Define mysql root password
+  shell:
+    cmd: mysql -u root -e "SET PASSWORD FOR root@localhost = PASSWORD('{{ mysql_root_password }}')"
+  become: yes
+
+- name: Configure MySQL to connect with root
+  template:
+    src: my.cnf.j2
+    dest: /root/.my.cnf
+    owner: root
+    mode: 0600
+  become: yes
+
+- name: restart MySQL
+  service:
+    name: mysql
+    state: restarted
+  become: yes
+
+- name: Create Nextcloud database
+  community.mysql.mysql_db:
+    login_unix_socket: /var/run/mysqld/mysqld.sock
+    login_host: "localhost"
+    login_user: "root"
+    login_password: "{{ mysql_root_password }}"
+    name: "nextcloud"
+    state: present
+    target: "{{ db_dir }}"
+
+- name: Create nextcloud database account et set privileges on nextcloud db
+  community.mysql.mysql_user:
+    login_unix_socket: /var/run/mysqld/mysqld.sock
+    login_host: "localhost"
+    login_user: "root"
+    login_password: "{{ mysql_root_password }}"
+    state: present
+    name: nextcloud
+    password: "{{ db_password }}"
+    priv: 'nextcloud.*:ALL'

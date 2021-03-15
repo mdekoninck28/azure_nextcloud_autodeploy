@@ -1,0 +1,28 @@
+---
+
+#Apache2 web server configuration
+
+- name: Create vHost for Nextcloud
+  template:
+    src: nextcloud.conf.j2
+    dest: /etc/apache2/sites-available/nextcloud.conf
+    owner: root
+    group: root
+    mode: '0644'
+  become: yes
+
+- name: Disable default website
+  shell:
+    cmd: a2dissite 000-default
+  become: yes
+
+- name: Enable Nextcloud Website
+  shell:
+    cmd: a2ensite nextcloud
+  become: yes
+
+- name: Restart webserver
+  service:
+    name: apache2
+    state: restarted
+  become: yes

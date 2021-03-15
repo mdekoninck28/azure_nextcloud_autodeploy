@@ -1,0 +1,23 @@
+<VirtualHost *:80>
+        
+        #website name (FQDN or IP)
+	ServerName {{ servername }}
+        #admin e-mail
+	ServerAdmin {{ serveradmin }}
+	#nextcloud web directory
+        DocumentRoot {{ web_dir }}
+
+	#errors and access logs paths
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+	<Directory {{ web_dir }}>
+            #enable all http options
+            Options all
+            #deny web directory listing
+            AllowOverride None
+            #allow access to all
+            Require all granted
+        </Directory>
+
+</VirtualHost>

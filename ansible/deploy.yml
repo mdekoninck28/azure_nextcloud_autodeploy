@@ -1,0 +1,11 @@
+---
+- name: deploiement de nextcloud
+  hosts: all
+  become: yes
+  become_method: sudo
+
+  roles:
+    - nextcloud
+
+  collections:
+    - community.mysql

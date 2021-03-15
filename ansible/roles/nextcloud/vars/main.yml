@@ -1,0 +1,26 @@
+---
+# vars file for nextcloud
+
+#web directory
+web_dir: "/var/www/nextcloud"
+web_dir_parent: "/var/www/"
+
+#website name (FQDN ou IP)
+servername: "nextcloud.local"
+
+#e-mail de l'administrateur
+serveradmin: "test@nextcloud.local"
+
+#nextcloud db directory
+db_dir: "/var/db"
+
+#nextcloud db password
+db_password: "Azerty1234!"
+
+#nextcloud admin ID + password
+admin_user: "admin"
+admin_password: "Azerty1234!"
+
+#mysql root password
+mysql_root_password: "Azerty1234!"
+

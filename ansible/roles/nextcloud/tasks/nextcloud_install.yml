@@ -1,0 +1,44 @@
+---
+
+#Installation de nextcloud
+
+- name: Download nextcloud archive
+  get_url:
+    url: https://download.nextcloud.com/server/releases/nextcloud-20.0.0.zip
+    dest: /tmp/nextcloud-archive.zip
+    mode: '0744'
+    owner: www-data
+  become: yes
+
+- name: Extract Nextcloud files
+  shell:
+    cmd: unzip /tmp/nextcloud-archive.zip -d {{ web_dir_parent }}
+  become: yes
+
+- name: Set owner of web dir to www-data
+  shell:
+    cmd: chown -R www-data:www-data {{ web_dir }}
+  become: yes
+
+- name: Set permissions for web dir
+  shell:
+    cmd: chmod -R o+rwx {{ web_dir }}
+  become: yes
+
+- name: Install Nextcloud via command line
+  shell:
+    cmd: sudo -u www-data php {{ web_dir }}/occ maintenance:install --database "mysql" --database-host "localhost" --database-name "nextcloud"  --database-user "nextcloud"  --database-pass "{{ db_password }}" --admin-user "{{ admin_user }}" --admin-pass "{{ admin_password }}"
+  become: yes
+
+- name: Allow all to connect to Nextcloud
+  lineinfile:
+    path: "{{ web_dir }}/config/config.php"
+    regexp: "0 => 'localhost'"
+    line: "0 => '*'"
+  become: yes
+
+- name: Restart Apache2 to apply config
+  service:
+    name: apache2
+    state: restarted
+  become: yes

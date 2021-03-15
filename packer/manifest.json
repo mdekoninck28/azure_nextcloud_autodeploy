@@ -1,0 +1,248 @@
+{
+  "builds": [
+    {
+      "name": "basic-example",
+      "builder_type": "azure-arm",
+      "build_time": 1614695216,
+      "files": null,
+      "artifact_id": "/subscriptions/e44ece60-38be-43b7-a1e5-f580898e8253/resourceGroups/RessourceGroup1/providers/Microsoft.Compute/images/image_20210302140930",
+      "packer_run_uuid": "3a65d0f3-e3f8-6695-bd55-7436b96681ec",
+      "custom_data": null
+    },
+    {
+      "name": "basic-example",
+      "builder_type": "azure-arm",
+      "build_time": 1614763060,
+      "files": null,
+      "artifact_id": "/subscriptions/e44ece60-38be-43b7-a1e5-f580898e8253/resourceGroups/ResourceGroup3/providers/Microsoft.Compute/images/image_20210303091012",
+      "packer_run_uuid": "d7994769-d2ed-6b09-b04a-f5013dba1714",
+      "custom_data": null
+    },
+    {
+      "name": "basic-example",
+      "builder_type": "azure-arm",
+      "build_time": 1614855795,
+      "files": null,
+      "artifact_id": "/subscriptions/e44ece60-38be-43b7-a1e5-f580898e8253/resourceGroups/ResourceGroup3/providers/Microsoft.Compute/images/image_20210304105429",
+      "packer_run_uuid": "b2c95832-a5d0-3793-72af-33a23d1a72f7",
+      "custom_data": null
+    },
+    {
+      "name": "basic-example",
+      "builder_type": "azure-arm",
+      "build_time": 1614867984,
+      "files": null,
+      "artifact_id": "/subscriptions/e44ece60-38be-43b7-a1e5-f580898e8253/resourceGroups/ResourceGroup3/providers/Microsoft.Compute/images/image_20210304141222",
+      "packer_run_uuid": "72089b75-ab25-f8f8-aac4-f94f2f426a11",
+      "custom_data": null
+    },
+    {
+      "name": "basic-example",
+      "builder_type": "azure-arm",
+      "build_time": 1614869293,
+      "files": null,
+      "artifact_id": "/subscriptions/e44ece60-38be-43b7-a1e5-f580898e8253/resourceGroups/ResourceGroup3/providers/Microsoft.Compute/images/image_20210304144134",
+      "packer_run_uuid": "2ecba4de-4b6a-b27f-d034-3648cf836259",
+      "custom_data": null
+    },
+    {
+      "name": "basic-example",
+      "builder_type": "azure-arm",
+      "build_time": 1614870973,
+      "files": null,
+      "artifact_id": "/subscriptions/e44ece60-38be-43b7-a1e5-f580898e8253/resourceGroups/ResourceGroup3/providers/Microsoft.Compute/images/image_20210304150943",
+      "packer_run_uuid": "b26d49c6-042c-dcb8-fe4d-29aa3fdf74ec",
+      "custom_data": null
+    },
+    {
+      "name": "basic-example",
+      "builder_type": "azure-arm",
+      "build_time": 1614872713,
+      "files": null,
+      "artifact_id": "/subscriptions/e44ece60-38be-43b7-a1e5-f580898e8253/resourceGroups/ResourceGroup3/providers/Microsoft.Compute/images/image_20210304153830",
+      "packer_run_uuid": "8e680d91-3765-8171-2744-975d9fcaa560",
+      "custom_data": null
+    },
+    {
+      "name": "basic-example",
+      "builder_type": "azure-arm",
+      "build_time": 1614874136,
+      "files": null,
+      "artifact_id": "/subscriptions/e44ece60-38be-43b7-a1e5-f580898e8253/resourceGroups/ResourceGroup3/providers/Microsoft.Compute/images/image_20210304160129",
+      "packer_run_uuid": "d9246726-b90c-54a6-9248-ab72fb0f07a3",
+      "custom_data": null
+    },
+    {
+      "name": "basic-example",
+      "builder_type": "azure-arm",
+      "build_time": 1614932745,
+      "files": null,
+      "artifact_id": "/subscriptions/e44ece60-38be-43b7-a1e5-f580898e8253/resourceGroups/ResourceGroup3/providers/Microsoft.Compute/images/image_20210305081911",
+      "packer_run_uuid": "831c1157-6480-759c-f5bf-9c9c2b97af5a",
+      "custom_data": null
+    },
+    {
+      "name": "basic-example",
+      "builder_type": "azure-arm",
+      "build_time": 1614933636,
+      "files": null,
+      "artifact_id": "/subscriptions/e44ece60-38be-43b7-a1e5-f580898e8253/resourceGroups/ResourceGroup3/providers/Microsoft.Compute/images/image_20210305083408",
+      "packer_run_uuid": "7de07ea1-7498-a5c8-f909-d2d477f9e750",
+      "custom_data": null
+    },
+    {
+      "name": "basic-example",
+      "builder_type": "azure-arm",
+      "build_time": 1614935831,
+      "files": null,
+      "artifact_id": "/subscriptions/e44ece60-38be-43b7-a1e5-f580898e8253/resourceGroups/ResourceGroup3/providers/Microsoft.Compute/images/image_20210305091028",
+      "packer_run_uuid": "196c23bc-7114-c9f4-b3d4-4007b5f503f0",
+      "custom_data": null
+    },
+    {
+      "name": "basic-example",
+      "builder_type": "azure-arm",
+      "build_time": 1614936387,
+      "files": null,
+      "artifact_id": "/subscriptions/e44ece60-38be-43b7-a1e5-f580898e8253/resourceGroups/ResourceGroup3/providers/Microsoft.Compute/images/image_20210305091942",
+      "packer_run_uuid": "00193fd3-bbfc-1192-eb9d-cf6c0e0b7e6d",
+      "custom_data": null
+    },
+    {
+      "name": "basic-example",
+      "builder_type": "azure-arm",
+      "build_time": 1614937401,
+      "files": null,
+      "artifact_id": "/subscriptions/e44ece60-38be-43b7-a1e5-f580898e8253/resourceGroups/ResourceGroup3/providers/Microsoft.Compute/images/image_20210305093541",
+      "packer_run_uuid": "0f13db27-4d94-5d52-76b3-3dd82eefe209",
+      "custom_data": null
+    },
+    {
+      "name": "basic-example",
+      "builder_type": "azure-arm",
+      "build_time": 1614938303,
+      "files": null,
+      "artifact_id": "/subscriptions/e44ece60-38be-43b7-a1e5-f580898e8253/resourceGroups/ResourceGroup3/providers/Microsoft.Compute/images/image_20210305095050",
+      "packer_run_uuid": "7e6bea69-2a07-ca5e-21ae-cb33d281b737",
+      "custom_data": null
+    },
+    {
+      "name": "basic-example",
+      "builder_type": "azure-arm",
+      "build_time": 1614939733,
+      "files": null,
+      "artifact_id": "/subscriptions/e44ece60-38be-43b7-a1e5-f580898e8253/resourceGroups/resourcegrouptest/providers/Microsoft.Compute/images/image_20210305101412",
+      "packer_run_uuid": "d419c362-f973-3a78-a82d-69f3e39ec6bc",
+      "custom_data": null
+    },
+    {
+      "name": "basic-example",
+      "builder_type": "azure-arm",
+      "build_time": 1615644173,
+      "files": null,
+      "artifact_id": "/subscriptions/e44ece60-38be-43b7-a1e5-f580898e8253/resourceGroups/resourcegrouptest/providers/Microsoft.Compute/images/image_20210313135059",
+      "packer_run_uuid": "c480562f-144b-3fb5-71fd-37f64b7af6fc",
+      "custom_data": null
+    },
+    {
+      "name": "basic-example",
+      "builder_type": "azure-arm",
+      "build_time": 1615646209,
+      "files": null,
+      "artifact_id": "/subscriptions/e44ece60-38be-43b7-a1e5-f580898e8253/resourceGroups/resourcegrouptest/providers/Microsoft.Compute/images/image_20210313142427",
+      "packer_run_uuid": "5a65b7c1-360c-d8a6-b1b8-ac77017242ea",
+      "custom_data": null
+    },
+    {
+      "name": "basic-example",
+      "builder_type": "azure-arm",
+      "build_time": 1615647260,
+      "files": null,
+      "artifact_id": "/subscriptions/e44ece60-38be-43b7-a1e5-f580898e8253/resourceGroups/resourcegrouptest/providers/Microsoft.Compute/images/image_20210313144240",
+      "packer_run_uuid": "d850fd11-d0c8-9eba-e08e-753772be02c6",
+      "custom_data": null
+    },
+    {
+      "name": "basic-example",
+      "builder_type": "azure-arm",
+      "build_time": 1615722903,
+      "files": null,
+      "artifact_id": "/subscriptions/e44ece60-38be-43b7-a1e5-f580898e8253/resourceGroups/resourcegrouptest/providers/Microsoft.Compute/images/image_20210314114245",
+      "packer_run_uuid": "30a671f2-143d-377c-8cac-6cedc97bd1b7",
+      "custom_data": null
+    },
+    {
+      "name": "basic-example",
+      "builder_type": "azure-arm",
+      "build_time": 1615726017,
+      "files": null,
+      "artifact_id": "/subscriptions/e44ece60-38be-43b7-a1e5-f580898e8253/resourceGroups/resourcegrouptest/providers/Microsoft.Compute/images/image_20210314123429",
+      "packer_run_uuid": "af76b85b-bb21-3160-ceaf-c16fb1d3c673",
+      "custom_data": null
+    },
+    {
+      "name": "basic-example",
+      "builder_type": "azure-arm",
+      "build_time": 1615742810,
+      "files": null,
+      "artifact_id": "/subscriptions/e44ece60-38be-43b7-a1e5-f580898e8253/resourceGroups/resourcegrouptest/providers/Microsoft.Compute/images/image_20210314171432",
+      "packer_run_uuid": "e212e4f3-aef2-65b8-7c54-5729428211e1",
+      "custom_data": null
+    },
+    {
+      "name": "basic-example",
+      "builder_type": "azure-arm",
+      "build_time": 1615749202,
+      "files": null,
+      "artifact_id": "/subscriptions/e44ece60-38be-43b7-a1e5-f580898e8253/resourceGroups/resourcegrouptest/providers/Microsoft.Compute/images/image_20210314190026",
+      "packer_run_uuid": "6e909d72-3aea-3cf9-8625-1fc53c0d3b06",
+      "custom_data": null
+    },
+    {
+      "name": "basic-example",
+      "builder_type": "azure-arm",
+      "build_time": 1615752093,
+      "files": null,
+      "artifact_id": "/subscriptions/e44ece60-38be-43b7-a1e5-f580898e8253/resourceGroups/resourcegrouptest/providers/Microsoft.Compute/images/image_20210314194743",
+      "packer_run_uuid": "26e67dc8-8429-3d22-40a6-7e38cad1fa63",
+      "custom_data": null
+    },
+    {
+      "name": "basic-example",
+      "builder_type": "azure-arm",
+      "build_time": 1615753900,
+      "files": null,
+      "artifact_id": "/subscriptions/e44ece60-38be-43b7-a1e5-f580898e8253/resourceGroups/resourcegrouptest/providers/Microsoft.Compute/images/image_20210314201730",
+      "packer_run_uuid": "2afa2c1e-aaae-6e5c-0773-b781b510ddb3",
+      "custom_data": null
+    },
+    {
+      "name": "basic-example",
+      "builder_type": "azure-arm",
+      "build_time": 1615756753,
+      "files": null,
+      "artifact_id": "/subscriptions/e44ece60-38be-43b7-a1e5-f580898e8253/resourceGroups/resourcegrouptest/providers/Microsoft.Compute/images/image_20210314210729",
+      "packer_run_uuid": "13069e19-f287-b653-b08e-368b7cd9ed13",
+      "custom_data": null
+    },
+    {
+      "name": "basic-example",
+      "builder_type": "azure-arm",
+      "build_time": 1615809030,
+      "files": null,
+      "artifact_id": "/subscriptions/e44ece60-38be-43b7-a1e5-f580898e8253/resourceGroups/resourcegrouptest/providers/Microsoft.Compute/images/image_20210315113439",
+      "packer_run_uuid": "5a39466f-4603-1333-805d-d0f0dddb4579",
+      "custom_data": null
+    },
+    {
+      "name": "basic-example",
+      "builder_type": "azure-arm",
+      "build_time": 1615822453,
+      "files": null,
+      "artifact_id": "/subscriptions/e44ece60-38be-43b7-a1e5-f580898e8253/resourceGroups/resourcegrouptest/providers/Microsoft.Compute/images/image_20210315152052",
+      "packer_run_uuid": "4485e8c6-37aa-3bfc-18ba-55ccccadb5c4",
+      "custom_data": null
+    }
+  ],
+  "last_run_uuid": "4485e8c6-37aa-3bfc-18ba-55ccccadb5c4"
+}

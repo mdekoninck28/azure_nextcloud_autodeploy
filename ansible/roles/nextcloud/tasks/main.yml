@@ -1,0 +1,34 @@
+---
+# tasks file for nextcloud
+
+- name: Install basic packages
+  apt:
+    name: "{{ item }}"
+    state: present
+  loop: "{{ packages }}"
+  become: yes
+
+- name: Install PHP dependencies
+  apt:
+    name: "{{ item }}"
+    state: present
+  loop: "{{ deps }}"
+  become: yes
+
+- name: Install Python3 MySQL module
+  apt:
+    name: "python3-mysqldb"
+    state: present
+  become: yes
+  
+- name: Configure MySQL with another tasks file
+  include: "mysql_config.yml"
+  become: yes
+
+- name: Configure Apache with another tasks file
+  include: "apache_config.yml"
+  become: yes
+
+- name: Install Nextcloud with another tasks file
+  include: "nextcloud_install.yml"
+  become: yes
