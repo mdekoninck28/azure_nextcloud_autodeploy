@@ -1,6 +1,8 @@
 ---
-# defaults file for nextcloud
+#Default vars
 
+# basic packages list
 packages: ["apache2","php","mariadb-server","unzip"]
 
+# PHP dependencies
 deps: ["php-dompdf","php-curl","php-gd","php-json","php-xml","php-mbstring","php-zip","php-bz2","php-mysql"]
