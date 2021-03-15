@@ -1,0 +1,6 @@
+location       = "eastus"
+prefix         = "CESI"
+name           = "VM-1"
+image          ="image_20210315152052"
+resourcegroup  = "resourcegrouptest"
+azureuser_password = "Azerty1234!"
